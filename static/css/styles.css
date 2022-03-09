@@ -1,0 +1,442 @@
+MAIN {
+    padding: { top: 30px; bottom: 30px; }
+    margin-top: 56px;
+    height: 3000px;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  /* font-family: 'Gideon Roman', cursive; */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#title {
+  background: no-repeat center;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  color: #D8DAD3;
+  padding-bottom: 100px;
+}
+
+table {
+  text-align: center;
+  table-layout:fixed;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+img{
+  height: 230px;
+  width: 230px;
+  border-radius: 30px;
+}
+
+.navbar-nav {
+  color: #abb5bd;
+}
+
+.container-fluid{
+  padding: 0.5% 15% 7% 7%;
+}
+
+.type_effect {
+  display: block;
+  white-space: nowrap;
+  width: 14ch;
+
+  animation: typing 2s steps(14), blink .5s step-end infinite normal;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.my_name{
+  background: #ccc;
+  background: radial-gradient(circle at 36.1% 25.92%, #DCDCDC 0, #808080 25%, #d4d6d7 50%, #c3b7b0 75%, #b19c8c 100%);
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 auto 0 auto;
+
+  /* font-family: 'League Spartan', sans-serif; */
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.subtitle{
+  text-align: center;
+  /* font-family: 'Kurale', serif; */
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3rem;
+  padding-top: 50px;
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4rem;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+   top: -56px;
+   opacity: 0;
+}
+
+.navbar-brand {
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+}
+
+
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* About Me  */
+
+#about {
+  padding: 80px;
+  text-align: center;
+  background-color: #2B2C30;
+  color: #E8E8E8;
+}
+
+.card-group {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 13%;
+}
+
+.about_me{
+  color: #2B2C30;
+  padding-top: 35px;
+}
+
+
+
+/* @media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  } */
+
+  /* .title-image {
+    position: static;
+    transform: rotate(0)
+  }
+} */
+
+.story{
+  background-color: #2B2C30;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+.my_journey{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: #ccc;
+  background: radial-gradient(circle at 36.1% 25.92%, #eeffff 0, #e3f6fe 25%, #d4d6d7 50%, #c3b7b0 75%, #b19c8c 100%);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 100px;
+}
+
+.description_text{
+  color: #40514E;
+  width: 45%;
+  margin: auto;
+  color: #E8E8E8;
+  font-size: 1.55rem;
+  padding-bottom: 20px;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  background-color: #E3E3E3;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  color:  #8f8f8f;
+  font-size: 1rem;
+}
+
+
+.btn {
+  background: #cdcfda;
+  background-image: -webkit-linear-gradient(180deg, #f5faff 0, #cdcfda 50%, #a6a59d 100%);
+  background-image: -moz-linear-gradient(180deg, #f5faff 0, #cdcfda 50%, #a6a59d 100%);
+  background-image: -ms-linear-gradient(180deg, #f5faff 0, #cdcfda 50%, #a6a59d 100%);
+  background-image: -o-linear-gradient(180deg, #f5faff 0, #cdcfda 50%, #a6a59d 100%);
+  background-image: linear-gradient(180deg, #f5faff 0, #cdcfda 50%, #a6a59d 100%);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 16px;
+  font-family: 'League Spartan', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-contact {
+  background: rgb(2,0,36);
+  background-image: -webkit-linear-gradient(90deg, rgba(2,0,36,0.8071603641456583) 0%, rgba(32,77,152,0.8799894957983193) 49%, rgba(19,47,184,0.9248074229691877) 100%);
+  background-image: -moz-linear-gradient(90deg, rgba(2,0,36,0.8071603641456583) 0%, rgba(32,77,152,0.8799894957983193) 49%, rgba(19,47,184,0.9248074229691877) 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(2,0,36,0.8071603641456583) 0%, rgba(32,77,152,0.8799894957983193) 49%, rgba(19,47,184,0.9248074229691877) 100%);
+  background-image: -o-linear-gradient(90deg, rgba(2,0,36,0.8071603641456583) 0%, rgba(32,77,152,0.8799894957983193) 49%, rgba(19,47,184,0.9248074229691877) 100%);
+  background-image: linear-gradient(90deg, rgba(2,0,36,0.8071603641456583) 0%, rgba(32,77,152,0.8799894957983193) 49%, rgba(19,47,184,0.9248074229691877) 100%);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 16px;
+  font-family: 'League Spartan', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+@media screen and (min-width:320px) and (max-width:840px)
+{
+  .my_name {
+    font-size: 60px;
+  }
+  .my_journey {
+    font-size:55px;
+    padding-bottom: 2px;
+  }
+
+  .description_text {
+    font-size: 20px;
+    width: 75%;
+
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width:841px) and (max-width: 1114px)
+{
+  .my_name {
+    font-size: 7.5rem;
+  }
+  .description_text {
+    font-size: 1.3rem;
+    width: 50%;
+  }
+
+  #title {
+    padding-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1115px)
+{
+  .my_name{
+    font-size: 7.5rem;
+  }
+
+}
+
+/* Contact page */
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+
+/* import after the changes */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
