@@ -6,7 +6,7 @@ MAIN {
 
 body {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1;
   /* font-family: 'Gideon Roman', cursive; */
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -63,17 +63,28 @@ img{
   50% { border-color: transparent }
 }
 
+.hi {
+  padding-top:200px;
+  font-size: 5rem;
+  font-family: 'Sora', sans-serif;
+  background: #ccc;
+  background: radial-gradient(circle at 36.1% 25.92%, #DCDCDC 0, #808080 25%, #d4d6d7 50%, #c3b7b0 75%, #b19c8c 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .my_name{
   background: #ccc;
   background: radial-gradient(circle at 36.1% 25.92%, #DCDCDC 0, #808080 25%, #d4d6d7 50%, #c3b7b0 75%, #b19c8c 100%);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 5px;
+  padding-bottom: 50px;
   margin: 0 auto 0 auto;
 
   /* font-family: 'League Spartan', sans-serif; */
-  font-family: 'Karla', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-weight: bold;
-  line-height: 2;
+  line-height: 1;
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -254,8 +265,16 @@ font-size: 1.2rem;
 
 @media screen and (min-width:320px) and (max-width:840px)
 {
+  p {
+    font-size: 10px;
+  }
+
+  .hi {
+    font-size: 20px;
+  }
+
   .my_name {
-    font-size: 60px;
+    font-size: 30px;
   }
   .my_journey {
     font-size:55px;
@@ -269,8 +288,8 @@ font-size: 1.2rem;
   }
 
   img {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     border-radius: 30px;
   }
 
@@ -281,17 +300,32 @@ font-size: 1.2rem;
 
 @media screen and (min-width:841px) and (max-width: 1114px)
 {
+  .hi {
+    font-size:3rem;
+  }
+
   .my_name {
-    font-size: 7.5rem;
+    font-size: 5.5rem;
   }
   .description_text {
     font-size: 1.3rem;
     width: 50%;
   }
 
+  img {
+    height: 180px;
+    width: 180px;
+    border-radius: 30px;
+  }
+
   #title {
     padding-bottom: 200px;
   }
+
+  p {
+    font-size: 1rem;
+  }
+
 }
 
 @media screen and (min-width: 1115px)
