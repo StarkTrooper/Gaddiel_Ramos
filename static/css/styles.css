@@ -64,7 +64,7 @@ img{
 }
 
 .hi {
-  padding-top:200px;
+  padding-top: 90px;
   font-size: 5rem;
   font-family: 'Sora', sans-serif;
   background: #ccc;
@@ -263,7 +263,7 @@ font-size: 1.2rem;
   text-decoration: none;
 }
 
-@media screen and (min-width:320px) and (max-width:840px)
+@media screen and (min-width:320px) and (max-width:839px)
 {
   p {
     font-size: 10px;
@@ -271,6 +271,7 @@ font-size: 1.2rem;
 
   .hi {
     font-size: 20px;
+    padding-top:28px;
   }
 
   .my_name {
@@ -298,14 +299,15 @@ font-size: 1.2rem;
   }
 }
 
-@media screen and (min-width:841px) and (max-width: 1114px)
+@media screen and (min-width:840px) and (max-width: 1114px)
 {
   .hi {
-    font-size:3rem;
+    font-size:2.8rem;
+    padding-top: 50px;
   }
 
   .my_name {
-    font-size: 5.5rem;
+    font-size: 4.7rem;
   }
   .description_text {
     font-size: 1.3rem;
